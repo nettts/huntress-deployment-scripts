@@ -44,13 +44,13 @@ param (
 ##############################################################################
 
 # Replace __ACCOUNT_KEY__ with your account secret key (from your Huntress portal's "download agent" section)
-$AccountKey = "__ACCOUNT_KEY__"
+# $AccountKey = "__ACCOUNT_KEY__"
 
 # Replace __ORGANIZATION_KEY__ with a unique identifier for the organization/client (your choice of naming scheme)
-$OrganizationKey = "__ORGANIZATION_KEY__"
+# $OrganizationKey = "__ORGANIZATION_KEY__"
 
 # Replace __TAGS__ with one or more tags, separated by commas (this field is optional!)
-$TagsKey = "__TAGS__"
+# $TagsKey = "__TAGS__"
 
 # Set to "Continue" to enable verbose logging.
 $DebugPreference = "SilentlyContinue"
